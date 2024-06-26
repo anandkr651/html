@@ -12,32 +12,38 @@
     <label for="fname"> First Name</label>
     <input type="text" placeholder="enter your name" maxlength="10" id="fname">
     <br />
+
     <label for="pw">password</label>
     <input type="password" name="anand" id="" for="pw">
+
     <form action="" method="get">
         <textarea name="comments" cols="20" rows="4" placeholder="Enter your comments..."></textarea>
         <button type="submit">pay</button>
     </form>
+
     <p>Please select your favorite genre:
-        <br/>
+        <br />
+        <!-- name is very important for radio input -->
         <input type="radio" name="genre" value="rock" checked="checked" /> Rock
-        <input type="radio" name="genre" value="pop" />
-        Pop
-        <input type="radio" name="genre" value="jazz" />
-        jazz
+        <input type="radio" name="genre" value="pop" /> Pop
+        <input type="radio" name="genre" value="jazz" />jazz
     </p>
+
     <p>Please select your favorite music service(s):
-        <br/>
+        <br />
+        <!-- name is very important for radio input -->
         <input type="checkbox" name="service" value="itunes" checked="checked" /> iTunes
         <input type="checkbox" name="service" value="lastfm" /> Last.fm
         <input type="checkbox" name="service" value="Spotify" /> Spotify
     </p>
+
     <p>What device do you listen to music on?</p>
     <select name="devices">
         <option value="ipod">iPod</option>
         <option value="radio">Radio</option>
         <option value="computer">Computer</option>
     </select>
+
     <p>Upload your song in MP3 format:</p>
     <input type="file" name="user-song" /><br />
     <input type="submit" value="Upload" />

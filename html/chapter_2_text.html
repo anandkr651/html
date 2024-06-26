@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1 title="heading one">this is the main heading</h1>
     <h2>this is the level 2 heading.</h2>
@@ -15,23 +17,57 @@
     <h6>this is the level 2 heading.</h6>
     <p>Lorem ipsum dolor sit.</p>
 
-    <p>Lorem, ipsum dolor sit amet<strong> consectetur</strong> adipisicing elit. <em>Nisi,</em> tempora.</p>
-    <p>Lorem ipsum dolor sit amet <b>consectetur</b> adipisicing elit. <i>Facilis,</i> debitis.</p>
+    <!-- bold the letter -->
+    <p>Lorem, ipsum dolor sit amet<strong> consectetur</strong> adipisicing elit. <b>Nisi,</b> tempora.</p>
+
+    <!-- font-style :oblique -->
+    <p>Lorem ipsum dolor sit amet <em>consectetur</em> adipisicing elit. <i>Facilis,</i> debitis.</p>
     <p><cite>A Brief History of Time</cite> by Stephen Hawking has sold over ten million copies worldwide.</p>
     <p>A <dfn>black hole</dfn> is a region of space from which nothing, not even light, can escape.</p>
-    
+
+    <!-- power -->
     <p>i win the 1<sup>st</sup> prize</p>
     <p>we take o<sub>2</sub> in air</p>
 
-    <blockquote><p>Lorem ipsum dolor <br> sit amet, consectetur adipisicing elit. Ducimus vel quod non magnam excepturi similique obcaecati totam esse dolore minima beatae molestias reiciendi.</p></blockquote>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laudantium <hr>nemo quis quas, in necessitatibus animi corporis, voluptatem culpa earum quod eos facilis quas.</p>
+    <!-- jaisay likhe hai waise hai screen par display hoga -->
+    <pre>
+        #include
+    main()
+    {
+        int ava,sum=0,i,marks[5];
+        for(i=0;i<=4;i++)
+        {
+            printf("enter marks");
+            scanf("%d",&marks[i]);
+            sum=sum+marks[i];
+            ava=sum/5;
+        }
+        printf("average marks=%d/n",ava);
+    }
+    </pre>
+
+    <blockquote>
+        <p>Lorem ipsum dolor <br> sit amet, consectetur adipisicing elit. Ducimus vel quod non magnam excepturi
+            similique obcaecati totam esse dolore minima beatae molestias reiciendi.</p>
+    </blockquote>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laudantium
+        <hr>nemo quis quas, in necessitatibus animi corporis, voluptatem culpa earum quod eos facilis quas.
+    </p>
+
+    <!-- double quote -->
     <p>Lorem ipsum dolor sit amet <q>consectetur, adipisicing elit.</q> Corrupti, aut.</p>
 
-    <p><acronym title = "national aeronautics and space administration">NASA</acronym> do some crazy space stuff</p>
+    <!-- acronym and abbr both tag work same -->
+    <p><acronym title="national aeronautics and space administration">NASA</acronym> do some crazy space stuff</p>
     <p><abbr title="professor">prof</abbr> stephen hawking is a theroretical physicist and comologist.</p>
 
-    <p>It was the <del>worst</del> <ins>best</ins> idea <mark>she</mark> had ever had.</p>
-     <p style="text-align: center; background-color: #124e69;"><s>Was $995</s></p>
-     <bdo dir="rtl">hitesh</bdo>
+    <!-- del and s tag both work same (cut the word), ins is underline the word,  -->
+    <p>It was the <del>worst</del> <ins>best</ins> idea <mark>she</mark> had <u>hello</u>ever had.</p>
+    <p style="text-align: center; background-color: #124e69;"><s>Was $995</s></p>
+
+    <!-- opposite the letter (urdu) -->
+    <bdo dir="rtl">hitesh</bdo>
 </body>
+
 </html>
